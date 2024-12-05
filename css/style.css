@@ -1,0 +1,157 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(199, 199, 199);
+}
+
+header {
+    background-color: white;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 23px;
+    color: brown;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-list {
+    color: rgb(183, 0, 255);
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.as {
+    text-align: center;
+}
+
+ 
+
+.info-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+
+    @media screen and (min-width: 1200px) {
+         display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 60px;
+    }  
+}
+
+.svgq {
+    width: 100px;
+    justify-content: center;
+    display: block;
+}
+
+.box-text {
+
+    width: 200px;
+
+    @media screen and (min-width: 1200px) {
+        width: 400px;
+    }
+    
+}
+
+.lesson {
+
+    border: solid gray;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+    @media screen and (min-width: 1200px) {
+        width: 250px;
+        height: 400px;
+        border: solid gray;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+.lesson:nth-child(2) {
+
+    @media screen and (min-width: 1200px) {
+        width: 500px;
+    }
+
+   
+}
+
+.ymdy-lesson {
+    font-size: 20px;
+}
+
+.ymdy-link {
+    border: solid blue;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.ymdy-infor {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 40px;
+    }
+    
+}
+
+.ymby4 {
+    color: red ;
+}
+
+.oplata-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+
+    
+}
+
+.opata-item  {
+    border-radius: 10px;
+    background-color: white;
+}
